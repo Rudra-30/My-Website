@@ -1,0 +1,56 @@
+h1{
+    color:white;
+    margin-left: 30px;    
+    }
+
+
+body{
+    background-image:url(background.jpg);
+    background-size:cover; 
+}    
+
+
+    .Box1{
+        
+        background-color: cadetblue;
+        display:flex;
+        justify-content: space-between
+    }
+
+.Menu a{
+margin-right: 30px;
+}
+
+
+.item img{
+padding: 40px;
+}
+
+p{
+text-align:center
+    
+}
+
+.item p{ font-weight: bold; 
+    color:black; 
+    font-family: Papyrus; position: absolute;
+    top: 50%; 
+    left: 50%; transform: translate(-50%, -50%); opacity:0;
+     }
+
+
+.item:hover p{ opacity: 1; }
+.item:hover img{ opacity: 0.33;}
+
+p{
+    color:cadetblue;
+}
+
+
+
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     }
